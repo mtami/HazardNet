@@ -1,7 +1,3 @@
-To merge the two README sections into a single cohesive `README.md`, the goal is to organize them under a unified project description with clear subsections for the **dataset** and the **model training** code. Here's how you can structure it:
-
----
-
 ## 🚦 HazardQA & HazardNet: Traffic Scene Understanding Toolkit
 
 This repository contains tools and code for building and fine-tuning models to understand and reason about real-world traffic scenes using images. It includes:
@@ -32,12 +28,6 @@ Each QA pair falls under categories such as:
 ```bash
 pip install transformers trl datasets bitsandbytes peft qwen-vl-utils wandb accelerate torch torchvision torchaudio litellm python-dotenv
 ```
-
-### 🧾 How to Use
-
-1. Place raw data in `data/drama_annotation.json`
-2. Run `HazardQA_Reasoning_Dataset.ipynb`
-3. Output: structured, labeled VQA dataset
 
 ---
 
